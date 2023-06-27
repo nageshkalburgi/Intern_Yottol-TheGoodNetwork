@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* h1 {
+    margin-top: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-top: 20px;
+    width: 300px;
+  }
+  
+  #dropdown {
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  #dropdown ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #dropdown li {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  #cityDetails {
+    margin-top: 20px;
+  }
+   */
+
+
+
+   #container{
+    margin-left: 200px;
+    width: 200px;
+    height: 300px;
+   }
+   .formbox{
+    position: relative;
+    
+    width: 800px;
+    text-align: center;
+    margin: auto;
+   line-height: 200px;
+  
+  
+    }
+    
+    button{
+      margin-left: 100px;
+    }
+
+    .city-info p strong {
+      font-weight: bold;
+    }
+
+    .city-table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    .city-table td,
+    .city-table th {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    .city-table th {
+      background-color: #f2f2f2;
+    }
+    

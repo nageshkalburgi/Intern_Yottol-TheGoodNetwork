@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>City Lookup</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+  <!-- <nav id="navbar"class="navbar navbar-expand-lg" style="background-color: #1B6B93;">
+    
+    <a class="navbar-brand" href="#">Navbar</a>
+
+    </nav> -->
+    <nav class="navbar navbar-expand-lg " style="background-color: #1B6B93;">
+      <div class="container">
+        <h2 style="color: white;">City Details</h2>
+        <!-- <a class="navbar-brand" style="color: white;" href="#">City Details</a> -->
+      </div>
+    </nav>
+
+
+
+  <div class="formbox">
+    <div class="col-md-5">
+   <h3>Select city</h3>
+  <div class="inptbox">
+    <select type="text" class="form-select form-select-sm" id="cityInput" required>
+        
+      <option selected>Please Select</option>
+    
+  </select>
+  </div>
+      
+    <br>
+
+
+  </div>
+  
+  </div>
+  <button type="button" class="btn btn-success btn-lg" onclick="submitForm()">Show Details</button>
+
+
+  <br>
+  <br>
+  
+  <div id="cityInfo"></div>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
